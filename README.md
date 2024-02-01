@@ -4,6 +4,12 @@
 > SQL
 > HTML,CSS, JS
 
+Clone this repository using 
+
+<pre lang = "bash"><code>
+$ git clone https://github.com/RajV95/DBMS.git
+</code></pre>
+
 
 Designed and Developed by
 > Vignesh
