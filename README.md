@@ -1,5 +1,13 @@
 # DataBase Management System
-## Project intended to automate the Sports' slot booking facility
-'tiasef
+## Project intended to automate the Institute's Sports slot booking facility
+### Tech Stack 
+> SQL
+> HTML,CSS, JS
 
-*Vignesh, Raj, Ashrith, Veeresh, DD*
+
+Designed and Developed by
+> Vignesh    
+> Raj
+> Ashrith
+> Veeresh
+> Divyadharshan
