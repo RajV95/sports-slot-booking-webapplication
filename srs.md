@@ -1,10 +1,10 @@
 ## SOFTWARE REQUIREMENT SPECIFICATIONS of DBMS project on ASSB
 > Automation of Sports Slot Booking System four our insititute IIITDM
 ### Database name: SPORTS_SECTION
-We have "sports department" in our institute. Under sports department we have 'several sports'.<br>
-There are 'two' categories of sports, they are "outdoor" and "indoor".<br>
-To play 'indoor games', one has to book slots. In indoor sports there are 'Gym', 'Badminton', 'Carrom', 'Chess', 'Table tennis'.<br>
-Slot timings are divided into 'two' groups. There are "morning" and "evening":<br>
+> We have "sports department" in our institute. Under sports department we have 'several sports'.<br>
+> There are 'two' categories of sports, they are "outdoor" and "indoor".<br>
+> To play 'indoor games', one has to book slots. In indoor sports there are 'Gym', 'Badminton', 'Carrom', 'Chess', 'Table tennis'.<br>
+> Slot timings are divided into 'two' groups. There are "morning" and "evening":<br>
   at 'morning' we have 'four' slots, they are '5-6 am', '6-7 am', '7-8 am' and '8-9 am',<br>
   at 'evening' we have 'five' slots, they are '5-6 pm', '6-7 pm', '7-8 pm', '8-9 pm' and '9-10 pm'.<br>
 'Gym' can accomodate a maximum of 'fifty' people.<br>
