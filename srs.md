@@ -5,7 +5,7 @@ We have "sports department" in our institute. Under sports department we have 's
 There are 'two' categories of sports, they are "outdoor" and "indoor".<br>
 To play 'indoor games', one has to book slots. In indoor sports there are 'Gym', 'Badminton', 'Carrom', 'Chess', 'Table tennis'.<br>
 Slot timings are divided into 'two' groups. There are "morning" and "evening":<br>
-  at 'morning' we have 'four' slots, they are '5-6 am', '6-7 am', '7-8 am' and '8-9 am',<br>
+\t at 'morning' we have 'four' slots, they are '5-6 am', '6-7 am', '7-8 am' and '8-9 am',<br>
   at 'evening' we have 'five' slots, they are '5-6 pm', '6-7 pm', '7-8 pm', '8-9 pm' and '9-10 pm'.<br>
 'Gym' can accomodate a maximum of 'fifty' people.<br>
 'Badminton' arena have 'four' courts, where each can accomodate a maximum of 'six' people.<br>
@@ -15,7 +15,7 @@ Slot timings are divided into 'two' groups. There are "morning" and "evening":<b
 ### Database name: PEOPLE
 Sports are played by different set of people, these are 'Students', 'Faculties', 'Faculty Dependents', 'Staff' and 'Staff Dependents'.<br>
 Each 'Student':<br>
-  is enrolled for a particular 'Degree' and 'Department',<br>
+  is enrolled for a particular 'Degree', 'Department' and 'Specialization',<br>
   is studying in a 'year' and a 'sem',<br>
   has a unique ID called 'roll number',<br>
   has 'First name', 'Last name', 'Sex', 'Age'.<br> 
