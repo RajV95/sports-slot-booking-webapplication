@@ -13,7 +13,7 @@ Slot timings are divided into 'two' groups. There are "morning" and "evening":<b
 'Chess' arena have 'eight' boards, where each can accomodate a maximum of 'two' people.<br>
 'Table tennis' arena have 'four' tables, where each can accomodate a maximum of 'four' people.<br>
 ### Database name: PEOPLE
-Sports are played by different set of people, these are 'Students', 'Faculties', 'Faculty Dependents', 'Staff' and 'Staff Dependents'.<br>
+Sports are played by different set of people, these are 'Student', 'Faculty', 'Faculty Dependent', 'Staff' and 'Staff Dependent'.<br>
 Each 'Student':<br>
   is enrolled for a particular 'Degree', 'Department' and 'Specialization',<br>
   is studying in a 'year' and a 'sem',<br>
