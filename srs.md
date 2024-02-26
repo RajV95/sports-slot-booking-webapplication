@@ -1,5 +1,5 @@
-## SOFTWARE REQUIREMENT SPECIFICATIONS of the DBMS project 
-> Automation of Sports Slot Booking System of our insititute IIITDM
+## SOFTWARE REQUIREMENT SPECIFICATIONS of DBMS project on ASSB
+> Automation of Sports Slot Booking System four our insititute IIITDM
 ### Database name: SPORTS_SECTION
 We have "sports department" in our institute. Under sports department we have 'several sports'.
 There are 'two' categories of sports, they are "outdoor" and "indoor".
@@ -20,4 +20,5 @@ Each student:
   has a unique ID called 'roll number',
   has 'First name', 'Last name', 'Sex', 'Age',
   can play multiple sports, for each sport he/she can select 'only one slot'. 
-Each slot chosen by the student will have a "registration date" and "end date", where "end date" can be 'end of semester', 'end of month' or 'end of week'.
+
+Each slot chosen by the student, faculty or staff will have a "registration date" and "end date", where "end date" can be 'end of semester', 'end of month' or 'end of week'.
