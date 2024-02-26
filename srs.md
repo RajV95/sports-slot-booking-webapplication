@@ -23,11 +23,12 @@ Each 'Faculty':<br>
   belongs to a particular 'Department',<br>
   has a unique 'ID',<br>
   has a 'First name', 'Last name', 'Sex', 'Age'.<br>
-'Faculty dependents' belong to particular faculty. Faculty dependents cannot belong to 'two or more' faculties. Faculty dependents have 'First name', 'Last name', 'Age', 'Sex' and 'Relationship'.<br>
+'Faculty dependents' belong to particular Faculty. Faculty dependents cannot belong to 'two or more' faculties. Faculty dependents have 'First name', 'Last name', 'Age', 'Sex' and 'Relationship'.<br>
 Each staff:<br>
   belongs to a particular 'Department',<br>
   has a unique 'ID',<br>
   has a 'First name', 'Last name', 'Age', 'Sex'.<br>
+'Staff dependents' belong to particular Staff. Staff dependents cannot belong to 'two or more' staffs. Staff dependents have 'First name', 'Last name', 'Age', 'Sex' and 'Relationship'.<br>
 Each 'Student', 'Faculty', 'Faculty dependent', 'Staff' or 'Staff dependent':<br>
   can play multiple sports, for each sport he/she can select 'only one slot'.<br>
   will have a "registration date" and "end date", where "end date" can be 'end of semester', 'end of month' or 'end of week'.<br>
