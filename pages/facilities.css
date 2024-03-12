@@ -8,18 +8,27 @@
 body{
     font-family: 'Poppins',sans-serif;
 }
+.header{
+    display: flex;
+    flex-direction: column;
+}
 .top{
     display: flex;
+    align-items: center;
 }
 .bottom{
     background-color: yellow;
     height: 50px;
+    display: flex;
+    align-items: center;
 }
 .logo{
     width: 100%;
+    height: auto;
 }
 .logo-div{
     width: 200px;
+    margin-right: 20px;
 }
 .navigation{
     display: flex;
