@@ -11,16 +11,48 @@ body{
 .header{
     display: flex;
     flex-direction: column;
+    background-color: rgb(255, 204, 0);
+    
 }
 .top{
     display: flex;
+    flex-direction: row;
     align-items: center;
+    background-color: rgb(255, 204, 0);
 }
+.nav_bar{
+    flex: 1;
+}
+.end-div{
+    width: 200px; /*Containg Sign In*/
+}
+
+.sign-in-box {
+    background-color: #2C4A87; /* Blue background color */
+    padding: 10px; /* Add padding */
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.sign-in-button {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.sign-in-button:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
 .bottom{
-    background-color: yellow;
+    background-color: rgb(0, 52, 102);
     height: 50px;
     display: flex;
     align-items: center;
+}
+.marq-text{
+    color: white;
 }
 .logo{
     width: 100%;
@@ -32,14 +64,14 @@ body{
 }
 .navigation{
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     list-style: none;
     padding: 0;
     /*background-color: yellow;*/
 }
 .navigation2{
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     list-style: none;
     padding: 0;
     background-color: yellow;
@@ -48,6 +80,7 @@ body{
 .nav_link{
     text-decoration: none;
     color: black;
+    transition: color 0.03s;
 }
 
 .nav_item{
@@ -55,7 +88,20 @@ body{
     margin: 15px;
     /*padding: 20px;*/
 }
+.nav_item:hover {
+    /*border: 1px; /* Add border *
+    border-radius: 0px; /* Add rounded corners */
+    padding: 5px 10px; /* Add padding */
+    background-color: #2C4A87;
+    color: white;
+}
 
+
+
+.nav_link:hover {
+    /*color: #1abc9c;*/
+    color: white;
+}
 img{
     justify-content: flex-start;
     width: fit-content;
