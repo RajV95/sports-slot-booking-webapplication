@@ -32,8 +32,12 @@ body{
     padding: 10px; /* Add padding */
     margin-left: 25px;
     margin-right: 20px;
+    transition: all 0.5s ease;
 }
+.sign-in-box:hover{
+    background-color:purple; /* Blue background color */
 
+}
 .sign-in-button {
     color: white; /* White text color */
     text-decoration: none; /* Remove underline */
@@ -41,8 +45,10 @@ body{
     padding-left: 40px;
 }
 
+
 .sign-in-button:hover {
     text-decoration: underline; /* Underline on hover */
+    /* color: black; */
 }
 
 .bottom{
@@ -81,20 +87,33 @@ body{
     text-decoration: none;
     color: black;
     transition: color 0.03s;
+    padding: 20px 20px;
 }
 
-.nav_item{
+.nav_item {
     align-content: center;
-    margin: 15px;
-    /*padding: 20px;*/
+    margin: 25px 25px;
+    padding: 5px 5px;
+    position: relative;
+    
+    transition: all 0.3s ease; /* Add transition for smooth animation */
 }
+
 .nav_item:hover {
-    /*border: 1px; /* Add border *
-    border-radius: 0px; /* Add rounded corners */
-    padding: 5px 10px; /* Add padding */
+    /* Add border */
+    /* Add rounded corners */
+    position: relative;
+    margin: 25px 25px;
+    padding: 5px 5px; /* Add padding */
     background-color: #2C4A87;
+    opacity: 0.9;
+    border-radius: 5px;
     color: white;
+    text-align: center;
+   /*Increase width*/
+    height: 120%; /*Increase height*/ 
 }
+
 
 
 
