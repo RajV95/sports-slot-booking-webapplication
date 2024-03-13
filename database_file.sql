@@ -57,7 +57,7 @@ rem_students BIGINT NOT NULL,
 foreign key(mgid) references Sports(mgid));
 
 create table People(
-id INT PRIMARY KEY NOT NULL,
+id VARCHAR(15) PRIMARY KEY NOT NULL,
 name VARCHAR(50) NOT NULL,
 gender VARCHAR(6) NOT NULL,
 role VARCHAR(15) NOT NULL,
@@ -66,7 +66,7 @@ end_date DATE NOT NULL,
 refernce_id VARCHAR(20) NOT NULL);
 
 create table Achievements(
-id INT NOT NULL,
+id VARCHAR(15) NOT NULL,
 competition VARCHAR(60) NOT NULL,
 sport_name VARCHAR(15) NOT NULL,
 position VARCHAR(20) NOT NULL,
