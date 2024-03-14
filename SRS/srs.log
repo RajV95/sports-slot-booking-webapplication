@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.13)  13 MAR 2024 14:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.13)  14 MAR 2024 20:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -129,143 +129,156 @@ LaTeX Font Info:    ... okay on input line 19.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (1.70248pt too wide) in paragraph at lines 44--45
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./srs.toc
+Overfull \hbox (12.65778pt too wide) in paragraph at lines 4--4
+ [] []\OT1/cmr/bx/n/14.4 Functional Re-quire-ments for Sports Slot Book-ing Sys
+-tem 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 5.
+)
+\tf@toc=\write3
+\openout3 = `srs.toc'.
+
+ [2]
+Overfull \hbox (1.70248pt too wide) in paragraph at lines 48--49
   \OT1/cmr/m/n/14.4 The \OT1/cmr/bx/n/14.4 Sports Slot Book-ing Sys-tem (SSBS) 
 \OT1/cmr/m/n/14.4 is an \OT1/cmr/m/it/14.4 on-line plat-form
  []
 
 
-Overfull \hbox (10.22478pt too wide) in paragraph at lines 44--45
+Overfull \hbox (10.22478pt too wide) in paragraph at lines 48--49
 \OT1/cmr/m/n/14.4 de-signed to fa-cil-i-tate the reser-va-tion of sports slots 
 for in-sti-tute stu-dents,
  []
 
 
-Overfull \hbox (25.32579pt too wide) in paragraph at lines 49--50
+Overfull \hbox (25.32579pt too wide) in paragraph at lines 53--54
 \OT1/cmr/m/n/14.4 fa-cil-i-ties. SSBS strives to `sim-plify the book-ing pro-ce
 ss', `re-duce schedul-ing
  []
 
 
-Overfull \hbox (24.85738pt too wide) in paragraph at lines 49--50
+Overfull \hbox (24.85738pt too wide) in paragraph at lines 53--54
 \OT1/cmr/m/n/14.4 in-door sports. By pro-vid-ing a ``straight-for-ward and user
 -friendly so-lu-tion",
  []
 
 
-Overfull \hbox (5.83815pt too wide) in paragraph at lines 54--55
+Overfull \hbox (5.83815pt too wide) in paragraph at lines 58--59
 \OT1/cmr/m/n/14.4 `man-ag-ing dif-fer-ent sports ac-tiv-i-ties', `defin-ing ava
 il-able slots', `track-ing
  []
 
 
-Overfull \hbox (23.07129pt too wide) in paragraph at lines 54--55
+Overfull \hbox (23.07129pt too wide) in paragraph at lines 58--59
 \OT1/cmr/m/n/14.4 re-ports on sports fa-cil-ity uti-liza-tion' and en-sur-ing u
 sers and ad-min-is-tra-tors
  []
 
-[2]
-Overfull \hbox (5.44165pt too wide) in paragraph at lines 63--64
+
+Overfull \hbox (12.4244pt too wide) in paragraph at lines 62--62
+[]\OT1/cmr/bx/n/17.28 Functional Re-quire-ments for Sports Slot Book-ing
+ []
+
+
+Overfull \hbox (5.44165pt too wide) in paragraph at lines 68--69
 []\OT1/cmr/m/n/14.4 Implement au-then-ti-ca-tion mech-a-nism us-ing institute-p
 rovided
  []
 
-
-Overfull \hbox (10.10486pt too wide) in paragraph at lines 82--83
+[3]
+Overfull \hbox (10.10486pt too wide) in paragraph at lines 87--88
 []\OT1/cmr/m/n/14.4 Display a `uni-fied in-ter-face' for book-ing slots across 
 all avail-able
  []
 
-[3]
-Overfull \hbox (5.83327pt too wide) in paragraph at lines 95--96
+[4]
+Overfull \hbox (5.83327pt too wide) in paragraph at lines 100--101
 []\OT1/cmr/m/n/14.4 `Associate each de-pen-dent' with the re-spec-tive fac-ulty
  mem-ber
  []
 
 
-Overfull \hbox (7.4783pt too wide) in paragraph at lines 96--97
+Overfull \hbox (7.4783pt too wide) in paragraph at lines 101--102
 []\OT1/cmr/m/n/14.4 Implement checks to en-sure that `de-pen-dents are not reg-
 is-tered
  []
 
 
-Overfull \hbox (4.54332pt too wide) in paragraph at lines 103--104
+Overfull \hbox (4.54332pt too wide) in paragraph at lines 108--109
 []\OT1/cmr/m/n/14.4 `Record reg-is-tra-tion start and end dates' for each user 
 ac-count. 
  []
 
 
-Overfull \hbox (23.53636pt too wide) in paragraph at lines 105--106
+Overfull \hbox (23.53636pt too wide) in paragraph at lines 110--111
 []\OT1/cmr/m/n/14.4 `Notify users' about up-com-ing reg-is-tra-tion pe-ri-ods a
 nd ex-pi-ra-tion
  []
 
 
-Overfull \hbox (2.19325pt too wide) in paragraph at lines 114--115
+Overfull \hbox (2.19325pt too wide) in paragraph at lines 119--120
 []\OT1/cmr/m/n/14.4 Provide in-sights into `pop-u-lar sports ac-tiv-i-ties', `p
 eak book-ing
  []
 
-
-Overfull \hbox (25.13072pt too wide) in paragraph at lines 121--122
-[] \OT1/cmr/m/n/14.4 These func-tional re-quire-ments are tai-lored to en-sure 
-smooth op-er-a-tion
- []
-
-
-Overfull \hbox (6.63676pt too wide) in paragraph at lines 121--122
+[5]
+Overfull \hbox (6.63676pt too wide) in paragraph at lines 129--130
 \OT1/cmr/m/n/14.4 while ad-her-ing to the unique re-quire-ments of the ``II-ITD
 M com-mu-nity". 
  []
 
-[4]
-Overfull \hbox (11.3949pt too wide) in paragraph at lines 144--145
+
+Overfull \hbox (11.3949pt too wide) in paragraph at lines 152--153
 []\OT1/cmr/m/n/14.4 Implement `au-then-ti-ca-tion mech-a-nisms' to ver-ify user
  iden-ti-ties
  []
 
 
-Overfull \hbox (19.77644pt too wide) in paragraph at lines 146--147
+Overfull \hbox (19.77644pt too wide) in paragraph at lines 154--155
 []\OT1/cmr/m/n/14.4 Apply `ac-cess con-trols' to re-strict unau-tho-rized ac-ce
 ss to book-ing
  []
 
-
-Overfull \hbox (14.23819pt too wide) in paragraph at lines 154--155
+[6]
+Overfull \hbox (14.23819pt too wide) in paragraph at lines 164--165
 []\OT1/cmr/m/n/14.4 Get `in-for-ma-tive feed-back mes-sages' to en-hance user e
 x-pe-ri-ence. 
  []
 
-[5]
-Overfull \hbox (4.25381pt too wide) in paragraph at lines 162--163
+
+Overfull \hbox (4.25381pt too wide) in paragraph at lines 172--173
   \OT1/cmr/m/n/14.4 The \OT1/cmr/bx/n/14.4 Sports Slot Book-ing Sys-tem (SSBS) 
 \OT1/cmr/m/n/14.4 must use `tech-nol-ogy
  []
 
 
-Overfull \hbox (23.93288pt too wide) in paragraph at lines 167--168
+Overfull \hbox (23.93288pt too wide) in paragraph at lines 177--178
 \OT1/cmr/m/n/14.4 pro-motes `ac-tive par-tic-i-pa-tion' and `ef-fec-tive uti-li
 za-tion of sports fa-cil-i-ties'.
  []
 
-[6] (./srs.aux) ) 
+[7] (./srs.aux) ) 
 Here is how much of TeX's memory you used:
- 1451 strings out of 480247
- 25454 string characters out of 5896151
+ 1462 strings out of 480247
+ 25577 string characters out of 5896151
  323149 words of memory out of 5000000
- 19443 multiletter control sequences out of 15000+600000
- 472020 words of font info for 37 fonts, out of 8000000 for 9000
+ 19450 multiletter control sequences out of 15000+600000
+ 472635 words of font info for 39 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,5n,62p,682b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,5n,62p,682b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on srs.pdf (6 pages, 71565 bytes).
+Output written on srs.pdf (7 pages, 72864 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
