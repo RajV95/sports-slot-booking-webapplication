@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.13)  14 MAR 2024 20:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.13)  19 MAR 2024 00:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -39,13 +39,39 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enitdp@description=\count194
 )
 (/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
 )
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks21
+\AP@partial=\box51
+\AP@footins=\box52
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
@@ -55,15 +81,15 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@cnth=\count195
 \Gm@cntv=\count196
 \c@Gm@tempcnt=\count197
-\Gm@bindingoffset=\dimen140
-\Gm@wd@mp=\dimen141
-\Gm@odd@mp=\dimen142
-\Gm@even@mp=\dimen143
-\Gm@layoutwidth=\dimen144
-\Gm@layoutheight=\dimen145
-\Gm@layouthoffset=\dimen146
-\Gm@layoutvoffset=\dimen147
-\Gm@dimlist=\toks21
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks22
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
@@ -73,26 +99,77 @@ LaTeX Info: Redefining \_ on input line 43.
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count198
-\l__pdf_internal_box=\box51
+\l__pdf_internal_box=\box53
 )
 (./srs.aux)
 \openout1 = `srs.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count199
+\scratchdimen=\dimen150
+\scratchbox=\box54
+\nofMPsegments=\count266
+\nofMParguments=\count267
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count268
+\MPscratchDim=\dimen151
+\MPnumerator=\count269
+\makeMPintoPDFobject=\count270
+\everyMPtoPDFconversion=\toks24
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -129,156 +206,190 @@ LaTeX Font Info:    ... okay on input line 19.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./srs.toc
-Overfull \hbox (12.65778pt too wide) in paragraph at lines 4--4
- [] []\OT1/cmr/bx/n/14.4 Functional Re-quire-ments for Sports Slot Book-ing Sys
--tem 
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 5.
-)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./srs.toc)
 \tf@toc=\write3
 \openout3 = `srs.toc'.
 
- [2]
-Overfull \hbox (1.70248pt too wide) in paragraph at lines 48--49
+ (./srs.lof)
+\tf@lof=\write4
+\openout4 = `srs.lof'.
+
+
+[2]
+Overfull \hbox (1.70248pt too wide) in paragraph at lines 51--52
   \OT1/cmr/m/n/14.4 The \OT1/cmr/bx/n/14.4 Sports Slot Book-ing Sys-tem (SSBS) 
 \OT1/cmr/m/n/14.4 is an \OT1/cmr/m/it/14.4 on-line plat-form
  []
 
 
-Overfull \hbox (10.22478pt too wide) in paragraph at lines 48--49
+Overfull \hbox (10.22478pt too wide) in paragraph at lines 51--52
 \OT1/cmr/m/n/14.4 de-signed to fa-cil-i-tate the reser-va-tion of sports slots 
 for in-sti-tute stu-dents,
  []
 
 
-Overfull \hbox (25.32579pt too wide) in paragraph at lines 53--54
+Overfull \hbox (25.32579pt too wide) in paragraph at lines 56--57
 \OT1/cmr/m/n/14.4 fa-cil-i-ties. SSBS strives to `sim-plify the book-ing pro-ce
 ss', `re-duce schedul-ing
  []
 
 
-Overfull \hbox (24.85738pt too wide) in paragraph at lines 53--54
+Overfull \hbox (24.85738pt too wide) in paragraph at lines 56--57
 \OT1/cmr/m/n/14.4 in-door sports. By pro-vid-ing a ``straight-for-ward and user
 -friendly so-lu-tion",
  []
 
 
-Overfull \hbox (5.83815pt too wide) in paragraph at lines 58--59
+Overfull \hbox (5.83815pt too wide) in paragraph at lines 61--62
 \OT1/cmr/m/n/14.4 `man-ag-ing dif-fer-ent sports ac-tiv-i-ties', `defin-ing ava
 il-able slots', `track-ing
  []
 
 
-Overfull \hbox (23.07129pt too wide) in paragraph at lines 58--59
+Overfull \hbox (23.07129pt too wide) in paragraph at lines 61--62
 \OT1/cmr/m/n/14.4 re-ports on sports fa-cil-ity uti-liza-tion' and en-sur-ing u
 sers and ad-min-is-tra-tors
  []
 
 
-Overfull \hbox (12.4244pt too wide) in paragraph at lines 62--62
+Overfull \hbox (12.4244pt too wide) in paragraph at lines 65--65
 []\OT1/cmr/bx/n/17.28 Functional Re-quire-ments for Sports Slot Book-ing
  []
 
 
-Overfull \hbox (5.44165pt too wide) in paragraph at lines 68--69
+Overfull \hbox (5.44165pt too wide) in paragraph at lines 71--72
 []\OT1/cmr/m/n/14.4 Implement au-then-ti-ca-tion mech-a-nism us-ing institute-p
 rovided
  []
 
 [3]
-Overfull \hbox (10.10486pt too wide) in paragraph at lines 87--88
+Overfull \hbox (10.10486pt too wide) in paragraph at lines 90--91
 []\OT1/cmr/m/n/14.4 Display a `uni-fied in-ter-face' for book-ing slots across 
 all avail-able
  []
 
 [4]
-Overfull \hbox (5.83327pt too wide) in paragraph at lines 100--101
+Overfull \hbox (5.83327pt too wide) in paragraph at lines 103--104
 []\OT1/cmr/m/n/14.4 `Associate each de-pen-dent' with the re-spec-tive fac-ulty
  mem-ber
  []
 
 
-Overfull \hbox (7.4783pt too wide) in paragraph at lines 101--102
+Overfull \hbox (7.4783pt too wide) in paragraph at lines 104--105
 []\OT1/cmr/m/n/14.4 Implement checks to en-sure that `de-pen-dents are not reg-
 is-tered
  []
 
 
-Overfull \hbox (4.54332pt too wide) in paragraph at lines 108--109
+Overfull \hbox (4.54332pt too wide) in paragraph at lines 111--112
 []\OT1/cmr/m/n/14.4 `Record reg-is-tra-tion start and end dates' for each user 
 ac-count. 
  []
 
 
-Overfull \hbox (23.53636pt too wide) in paragraph at lines 110--111
+Overfull \hbox (23.53636pt too wide) in paragraph at lines 113--114
 []\OT1/cmr/m/n/14.4 `Notify users' about up-com-ing reg-is-tra-tion pe-ri-ods a
 nd ex-pi-ra-tion
  []
 
 
-Overfull \hbox (2.19325pt too wide) in paragraph at lines 119--120
+Overfull \hbox (2.19325pt too wide) in paragraph at lines 122--123
 []\OT1/cmr/m/n/14.4 Provide in-sights into `pop-u-lar sports ac-tiv-i-ties', `p
 eak book-ing
  []
 
 [5]
-Overfull \hbox (6.63676pt too wide) in paragraph at lines 129--130
+Overfull \hbox (6.63676pt too wide) in paragraph at lines 132--133
 \OT1/cmr/m/n/14.4 while ad-her-ing to the unique re-quire-ments of the ``II-ITD
 M com-mu-nity". 
  []
 
 
-Overfull \hbox (11.3949pt too wide) in paragraph at lines 152--153
+Overfull \hbox (11.3949pt too wide) in paragraph at lines 155--156
 []\OT1/cmr/m/n/14.4 Implement `au-then-ti-ca-tion mech-a-nisms' to ver-ify user
  iden-ti-ties
  []
 
 
-Overfull \hbox (19.77644pt too wide) in paragraph at lines 154--155
+Overfull \hbox (19.77644pt too wide) in paragraph at lines 157--158
 []\OT1/cmr/m/n/14.4 Apply `ac-cess con-trols' to re-strict unau-tho-rized ac-ce
 ss to book-ing
  []
 
 [6]
-Overfull \hbox (14.23819pt too wide) in paragraph at lines 164--165
+Overfull \hbox (14.23819pt too wide) in paragraph at lines 167--168
 []\OT1/cmr/m/n/14.4 Get `in-for-ma-tive feed-back mes-sages' to en-hance user e
 x-pe-ri-ence. 
  []
 
 
-Overfull \hbox (4.25381pt too wide) in paragraph at lines 172--173
+Overfull \hbox (4.25381pt too wide) in paragraph at lines 175--176
   \OT1/cmr/m/n/14.4 The \OT1/cmr/bx/n/14.4 Sports Slot Book-ing Sys-tem (SSBS) 
 \OT1/cmr/m/n/14.4 must use `tech-nol-ogy
  []
 
 
-Overfull \hbox (23.93288pt too wide) in paragraph at lines 177--178
+Overfull \hbox (23.93288pt too wide) in paragraph at lines 180--181
 \OT1/cmr/m/n/14.4 pro-motes `ac-tive par-tic-i-pa-tion' and `ef-fec-tive uti-li
 za-tion of sports fa-cil-i-ties'.
  []
 
-[7] (./srs.aux) ) 
+[7]
+<ER4.jpg, id=29, 3183.895pt x 1497.595pt>
+File: ER4.jpg Graphic file (type jpg)
+<use ER4.jpg>
+Package pdftex.def Info: ER4.jpg  used on input line 187.
+(pdftex.def)             Requested size: 426.79135pt x 200.72696pt.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.191 \end{itemize}
+                   
+? quit
+OK, entering \batchmode...
+ [8 <./ER4.jpg>]
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 \end{document}
+                    
+Option `H' ignored and `p' used.
+
+<schema1.jpg, id=33, 2404.985pt x 3392.675pt>
+File: schema1.jpg Graphic file (type jpg)
+<use schema1.jpg>
+Package pdftex.def Info: schema1.jpg  used on input line 206.
+(pdftex.def)             Requested size: 426.79135pt x 602.06168pt.
+ [9 <./schema1.jpg>] (./srs.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1462 strings out of 480247
- 25577 string characters out of 5896151
- 323149 words of memory out of 5000000
- 19450 multiletter control sequences out of 15000+600000
- 472635 words of font info for 39 fonts, out of 8000000 for 9000
+ 2845 strings out of 480247
+ 49488 string characters out of 5896151
+ 344256 words of memory out of 5000000
+ 20767 multiletter control sequences out of 15000+600000
+ 472020 words of font info for 37 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,5n,62p,682b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on srs.pdf (7 pages, 72864 bytes).
+ 60i,6n,67p,682b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on srs.pdf (9 pages, 688887 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
