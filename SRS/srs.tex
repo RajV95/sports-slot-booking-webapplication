@@ -2,6 +2,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{enumitem}
 \usepackage{scalefnt}
+\usepackage{graphicx}
+\usepackage{afterpage}
 % \usepackage{fancyhdr}
 \usepackage{geometry}
 \geometry{
@@ -41,6 +43,7 @@
 \newpage
 
 \tableofcontents
+\listoffigures
 
 \newpage
 
@@ -175,6 +178,30 @@
 
 \section{Conclusion}
 \hspace{0.8cm} The \textbf{Sports Slot Booking System (SSBS)} aims to improve the reservation process for indoor sports activities at IIITDM. By providing a `user-friendly platform' for booking sports slots, SSBS promotes `active participation' and `effective utilization of sports facilities'. With a focus on ``performance, scalability, security, and usability", SSBS will help create a healthier and livelier sports community at the ``institute".
+
+\newpage
+
+\begin{itemize}
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=1\linewidth]{ER4.jpg}
+    \caption{ER diagram}
+    \label{fig:enter-label}
+    \end{figure}
+\end{itemize}
+
+\newpage
+\afterpage{%
+\begin{figure}[H] % Use H specifier to force the figure to appear "Here"
+\centering
+\includegraphics[width=1\linewidth]{schema1.jpg}
+\caption{Schema Diagram}
+\label{fig:enter-label}
+\end{figure}
+}
+
+
+
 
 \end{document}
 \textit{\textit{}}
