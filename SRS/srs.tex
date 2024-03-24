@@ -4,6 +4,15 @@
 \usepackage{scalefnt}
 \usepackage{graphicx}
 \usepackage{afterpage}
+\usepackage{tikz-uml}
+\usepackage[english]{babel}
+\usepackage{fullpage}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage[T1]{fontenc}
+% \usepackage{layaureo}
+
+
 % \usepackage{fancyhdr}
 \usepackage{geometry}
 \geometry{
@@ -200,7 +209,30 @@
 \end{figure}
 }
 
+%
+% Compilation of the examples from the TikZ-UML manual, v. 1.0b (2013-03-01)
+% http://www.ensta-paristech.fr/~kielbasi/tikzuml/index.php?lang=en
+%
 
+% \usepackage{layaureo}
+\newpage
+\afterpage{
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{uml_diagram.png}
+    \caption{Unified Modeling Language (UML) class diagram}
+    \label{fig:uml-diagram}
+\end{figure}
+}
+
+\clearpage
+\newpage
+\begin{center}
+    \Huge Thank You!
+\end{center}
+    
+\end{document}
 
 
 \end{document}

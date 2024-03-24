@@ -1,0 +1,123 @@
+\begin{tikzpicture}
+    \begin{umlpackage}[x = 5, y = -6.0]{}
+        \umlclass{PEOPLE}{
+          Name: Name\_dom \\
+          fname \\
+          lname \\
+          ID \\
+          Gender: \{M, F, T\} \\
+          Role \\
+          Reference Id \\
+          Start Date \\
+          End date \\
+        }{add\_people \\
+          count\_of\_people \\
+          update\_people \\
+          ...
+        }
+    \end{umlpackage}
+    
+    \begin{umlpackage}[x=5,y=0.5]{}
+        \umlclass{Achievement}{
+          Id \\
+          Competition \\
+          Sport \\
+          Position
+        }{}
+    \end{umlpackage}
+    
+    \begin{umlpackage}[x=-2.7,y=-18]{}
+        \umlclass{Badminton}{
+          Gid \\
+          Mgid \\
+          Slots \\
+          MaxS \\
+        }{add slot \\
+          free slots \\
+          count of slots \\
+          ...
+        }
+    \end{umlpackage}
+    
+    \begin{umlpackage}[x=0.4, y=-18]{}
+        \umlclass{Chess}{
+          Gid \\
+          Mgid \\
+          Slots \\
+          MaxS \\
+        }{add slot \\
+          free slots \\
+          count of slots \\
+          ...
+        }
+    \end{umlpackage}
+    
+    \begin{umlpackage}[x=3.5,y=-18]{}
+        \umlclass{Gym}{
+          Gid \\
+          Mgid \\
+          Slots \\
+          MaxS \\
+        }{add slot \\
+          free slots \\
+          count of slots \\
+          ...
+        }
+    \end{umlpackage}  
+    
+    \begin{umlpackage}[x=6.6,y=-18]{}
+        \umlclass{Carrom}{
+          Gid \\
+          Mgid \\
+          Slots \\
+          MaxS \\
+        }{add slot \\
+          free slots \\
+          count of slots \\
+          ...
+        }
+    \end{umlpackage} 
+    
+    \begin{umlpackage}[x=9.80,y=-18]{}
+        \umlclass{Tennis}{
+          Gid \\
+          Mgid \\
+          Slots \\
+          MaxS \\
+        }{add slot \\
+          free slots \\
+          count of slots \\
+          ...
+        }
+    \end{umlpackage}
+    
+    \begin{umlpackage}[x=13,y=-18]{}
+        \umlclass{Table Tennis}{
+          Gid \\
+          Mgid \\
+          Slots \\
+          MaxS \\
+        }{add slot \\
+          free slots \\
+          count of slots \\
+          ...
+        }
+    \end{umlpackage}
+    
+    \umlassoc[geometry=-|, arg={\text{}}, mult1=, pos1=0.3, mult2=M : N, pos2=1.8]{PEOPLE}{Achievement}
+    \umlassoc[geometry=-|-, arg={\text{ACHIEVES}}, mult1=M : 1, pos1=0.30, mult2=, pos2=0.3]{PEOPLE}{Achievement}
+    \umlassoc[geometry=-|, arg={\text{HAS}}, mult1=:N, pos1=0.6, mult2=1, pos2=0.66]{Achievement}{Badminton}
+    \umlassoc[geometry=-|, arg={\text{HAS}}, mult1=, pos1=0.35, mult2=1, pos2=2.4]{Achievement}{Chess}
+    \umlassoc[geometry=-|, arg={\text{HAS}}, mult1=, pos1=0.3, mult2=1, pos2=2.4]{Achievement}{Gym}
+    \umlassoc[geometry=-|, arg={\text{HAS}}, mult1=, pos1=0.3, mult2=1, pos2=2.4]{Achievement}{Carrom}
+    \umlassoc[geometry=-|, arg={\text{HAS}}, mult1=, pos1=0.3, mult2=1, pos2=2.4]{Achievement}{Tennis}
+    \umlassoc[geometry=-|, arg={\text{HAS}}, mult1=, pos1=0.3, mult2=1, pos2=2.4]{Achievement}{Table Tennis}
+    
+    \begin{umlpackage}[x=0,y=-10]{}
+        \umlclass{PLAYS}{
+          Gid \\
+        }{}
+    \end{umlpackage}
+    
+    \draw[dashed] (1,-10) -- (5,-10);
+\end{tikzpicture}
