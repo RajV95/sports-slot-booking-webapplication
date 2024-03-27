@@ -9,9 +9,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
 </head>
+<script>
+    // Wait for the page to fully load
+    window.addEventListener('load', function() {
+        // After 2 seconds (2000 milliseconds), remove the loader and overlay
+        setTimeout(function() {
+            var loader = document.getElementById('loader');
+            var overlay = document.querySelector('.overlay');
+            if (loader && overlay) {
+                loader.remove();
+                overlay.remove();
+            }
+        }, 500); // Adjust this value (in milliseconds) for the desired duration
+    });
+</script>
 
 <body>
-    <header>
+    <div class="loading-overlay" id="loader">
+        <img class="loading-logo" src="/IIITDM logo.png" alt="Organization Logo">
+    </div>
+    <div class="overlay"></div>
+    
+
+       <header>
         <div class="top">
             <div class="logo-div"><img class="logo" src="/pages/title_logo.webp"></div>
             <div class="nav_bar">

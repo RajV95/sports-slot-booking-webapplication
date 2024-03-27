@@ -14,6 +14,50 @@ body{
     background-color: rgb(255, 204, 0);
     
 }
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.loading-logo {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.blurred-background {
+    filter: blur(5px); /* Adjust blur amount */
+    pointer-events: none; /* Allows interaction with elements underneath */
+}
+
+/* Optional: Overlay to prevent interaction */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255); /* Semi-transparent background */
+    z-index: 999; /* Ensure it's above other content except the loader */
+    pointer-events: none; /* Allows interaction with elements underneath */
+}
 .top{
     display: flex;
     flex-direction: row;
