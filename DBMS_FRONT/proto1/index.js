@@ -1,3 +1,7 @@
+//To run the file type nodemon index.js or node index.js and then open your default browser and type localhost:5500 to see the output
+
+
+
 const express = require ('express');
 const passport = require ('passport');
 const session = require ('express-session');
