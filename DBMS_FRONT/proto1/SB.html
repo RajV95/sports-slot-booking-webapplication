@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slot Booking</title>
+
+    <link rel="stylesheet" type="text/css" href="styleSB.css">
+
+    <!-- <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> -->
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logoImg">
+            <img src="logo.png">
+        </div>
+        <a href="home.html" class="logoText">IIITDM<br>Kancheepuram</a>
+        <ul class="navList">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="SB.html">Slot Booking</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><b href="profile.html" class="accIcon"><i class="ri-account-circle-fill"></i></b></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+ 
+    <div class="hero">
+        <div class="sportSel">
+            <button id="b1" onclick="openBad()" data-sport="BADMINTON"><img src="bad.png" class="badm"></button>
+            <button id="b2" onclick="openCar()" data-sport="CARROM"><img src="car.png" class="carr"></button>
+            <button id="b3" onclick="openChe()" data-sport="CHESS"><img src="che.png" class="ches"></button>
+            <button id="b4" onclick="openTab()" data-sport="TABLE-TENNIS"><img src="tab.png" class="tabl"></button>
+            <button id="b5" onclick="openTen()" data-sport="TENNIS"><img src="ten.png" class="tenn"></button>
+            <button id="b6" onclick="openGym()" data-sport="GYM"><img src="gym.png" class="gymm"></button>
+        </div>
+        <div id="bad" class="slots">
+            <div class="slotTypeHead">
+                <h1>Choose slot type</h1>
+            </div>
+            <div class="slotTypes">
+                <button id="st11" onclick="openMonths1()">Monthly Slots</button>
+                <button id="st12" onclick="openSem1()">Semester Slot</button>
+            </div>
+            <div id="m1" class="months">
+                <div class="monthHead"><h1>Choose a month</h1></div>
+                <div class="monthButs">
+                    <button id="m11" onclick="openTimes1()">(01-05 to 07-05)</button>
+                    <button id="m12" onclick="openTimes1()">(08-05 to 14-05)</button>
+                    <button id="m13" onclick="openTimes1()">(15-05 to 21-05)</button>
+                    <button id="m14" onclick="openTimes1()">(22-05 to 28-05)</button>
+                </div>
+            </div>
+            <div id="t1" class="times">
+                <div class="timeHead"><h1>Choose a time</h1></div>
+                <div class="timeButs">
+                    <button id="t11" onclick="activateBook1()">(06 to 07)</button>
+                    <button id="t12" onclick="activateBook1()">(07 to 08)</button>
+                    <button id="t13" onclick="activateBook1()">(08 to 09)</button>
+                    <button id="t14" onclick="activateBook1()">(17 to 18)</button>
+                    <button id="t15" onclick="activateBook1()">(18 to 19)</button>
+                    <button id="t16" onclick="activateBook1()">(19 to 20)</button>
+                </div>
+                <div class="book">
+                    <button id="bk" onclick="showPayDetails1()">BOOK</button>
+                </div>
+            </div>
+            <div id="tsId1" class="timeSem">
+                <div class="timeHead"><h1>Choose a time</h1></div>
+                <div class="timeButs">
+                    <button id="ts11" onclick="activateBook1()">(06 to 07)</button>
+                    <button id="ts12" onclick="activateBook1()">(07 to 08)</button>
+                    <button id="ts13" onclick="activateBook1()">(08 to 09)</button>
+                    <button id="ts14" onclick="activateBook1()">(17 to 18)</button>
+                    <button id="ts15" onclick="activateBook1()">(18 to 19)</button>
+                    <button id="ts16" onclick="activateBook1()">(19 to 20)</button>
+                </div>
+                <div class="book">
+                    <button id="bk" onclick="showPayDetails1()">BOOK</button>
+                </div>
+            </div>
+        </div>
+        <div id="car" class="slots">
+            <div class="slotTypeHead">
+                <h1>Choose slot type</h1>
+            </div>
+            <div class="slotTypes">
+                <button id="st21" onclick="openMonths2()">Monthly Slots</button>
+                <button id="st22" onclick="openSem2()">Semester Slot</button>
+            </div>
+            <div id="m2" class="months">
+                <div class="monthHead"><h1>Choose a month</h1></div>
+                <div class="monthButs">
+                    <button id="m21" onclick="openTimes2()">(01-05 to 07-05)</button>
+                    <button id="m22" onclick="openTimes2()">(08-05 to 14-05)</button>
+                    <button id="m23" onclick="openTimes2()">(15-05 to 21-05)</button>
+                    <button id="m24" onclick="openTimes2()">(22-05 to 28-05)</button>
+                </div>
+            </div>
+            <div id="t2" class="times">
+                <div class="timeHead"><h1>Choose a time</h1></div>
+                <div class="timeButs">
+                    <button id="t21" onclick="activateBook1()">(06 to 07)</button>
+                    <button id="t22" onclick="activateBook1()">(07 to 08)</button>
+                    <button id="t23" onclick="activateBook1()">(08 to 09)</button>
+                    <button id="t24" onclick="activateBook1()">(17 to 18)</button>
+                    <button id="t25" onclick="activateBook1()">(18 to 19)</button>
+                    <button id="t26" onclick="activateBook1()">(19 to 20)</button>
+                </div>
+                <div class="book">
+                    <button id="bk" onclick="showPayDetails1()">BOOK</button>
+                </div>
+            </div>
+            <div id="tsId2" class="timeSem">
+                <div class="timeHead"><h1>Choose a time</h1></div>
+                <div class="timeButs">
+                    <button id="ts21" onclick="activateBook1()">(06 to 07)</button>
+                    <button id="ts22" onclick="activateBook1()">(07 to 08)</button>
+                    <button id="ts23" onclick="activateBook1()">(08 to 09)</button>
+                    <button id="ts24" onclick="activateBook1()">(17 to 18)</button>
+                    <button id="ts25" onclick="activateBook1()">(18 to 19)</button>
+                    <button id="ts26" onclick="activateBook1()">(19 to 20)</button>
+                </div>
+                <div class="book">
+                    <button id="bk" onclick="showPayDetails1()">BOOK</button>
+                </div>
+            </div>
+        </div>
+        <div id="che" class="slots">
+            <div class="slotTypeHead">
+                <h1>Choose slot type</h1>
+            </div>
+            <div class="slotTypes">
+                <button id="st31" onclick="openMonths3()">Monthly Slots</button>
+                <button id="st32" onclick="openSem3()">Semester Slot</button>
+            </div>
+            <div id="m3" class="months">
+                <div class="monthHead"><h1>Choose a month</h1></div>
+                <div class="monthButs">
+                    <button id="m31" onclick="openTimes3()">(01-05 to 07-05)</button>
+                    <button id="m32" onclick="openTimes3()">(08-05 to 14-05)</button>
+                    <button id="m33" onclick="openTimes3()">(15-05 to 21-05)</button>
+                    <button id="m34" onclick="openTimes3()">(22-05 to 28-05)</button>
+                </div>
+            </div>
+            <div id="t3" class="times">
+                <div class="timeHead"><h1>Choose a time</h1></div>
+                <div class="timeButs">
+                    <button id="t31" onclick="activateBook1()">(06 to 07)</button>
+                    <button id="t32" onclick="activateBook1()">(07 to 08)</button>
+                    <button id="t33" onclick="activateBook1()">(08 to 09)</button>
+                    <button id="t34" onclick="activateBook1()">(17 to 18)</button>
+                    <button id="t35" onclick="activateBook1()">(18 to 19)</button>
+                    <button id="t36" onclick="activateBook1()">(19 to 20)</button>
+                </div>
+                <div class="book">
+                    <button id="bk" onclick="showPayDetails1()">BOOK</button>
+                </div>
+            </div>
+            <div id="tsId3" class="timeSem">
+                <div class="timeHead"><h1>Choose a time</h1></div>
+                <div class="timeButs">
+                    <button id="ts31" onclick="activateBook1()">(06 to 07)</button>
+                    <button id="ts32" onclick="activateBook1()">(07 to 08)</button>
+                    <button id="ts33" onclick="activateBook1()">(08 to 09)</button>
+                    <button id="ts34" onclick="activateBook1()">(17 to 18)</button>
+                    <button id="ts35" onclick="activateBook1()">(18 to 19)</button>
+                    <button id="ts36" onclick="activateBook1()">(19 to 20)</button>
+                </div>
+                <div class="book">
+                    <button id="bk" onclick="showPayDetails1()">BOOK</button>
+                </div>
+            </div>
+        </div>
+        <div id="tab" class="slots">
+            <div class="slotTypeHead">
+                <h1>Choose slot type</h1>
+            </div>
+            <div class="slotTypes">
+                <button id="st41" onclick="openMonths4()">Monthly Slots</button>
+                <button id="st42" onclick="openSem4()">Semester Slot</button>
+            </div>
+            <div id="m4" class="months">
+                <div class="monthHead"><h1>Choose a month</h1></div>
+                <div class="monthButs">
+                    <button id="m41" onclick="openTimes4()">(01-05 to 07-05)</button>
+                    <button id="m42" onclick="openTimes4()">(08-05 to 14-05)</button>
+                    <button id="m43" onclick="openTimes4()">(15-05 to 21-05)</button>
+                    <button id="m44" onclick="openTimes4()">(22-05 to 28-05)</button>
+                </div>
+            </div>
+            <div id="t4" class="times">
+                <div class="timeHead"><h1>Choose a time</h1></div>
+                <div class="timeButs">
+                    <button id="t41" onclick="activateBook1()">(06 to 07)</button>
+                    <button id="t42" onclick="activateBook1()">(07 to 08)</button>
+                    <button id="t43" onclick="activateBook1()">(08 to 09)</button>
+                    <button id="t44" onclick="activateBook1()">(17 to 18)</button>
+                    <button id="t45" onclick="activateBook1()">(18 to 19)</button>
+                    <button id="t46" onclick="activateBook1()">(19 to 20)</button>
+                </div>
+                <div class="book">
+                    <button id="bk" onclick="showPayDetails1()">BOOK</button>
+                </div>
+            </div>
+            <div id="tsId4" class="timeSem">
+                <div class="timeHead"><h1>Choose a time</h1></div>
+                <div class="timeButs">
+                    <button id="ts41" onclick="activateBook1()">(06 to 07)</button>
+                    <button id="ts42" onclick="activateBook1()">(07 to 08)</button>
+                    <button id="ts43" onclick="activateBook1()">(08 to 09)</button>
+                    <button id="ts44" onclick="activateBook1()">(17 to 18)</button>
+                    <button id="ts45" onclick="activateBook1()">(18 to 19)</button>
+                    <button id="ts46" onclick="activateBook1()">(19 to 20)</button>
+                </div>
+                <div class="book">
+                    <button id="bk" onclick="showPayDetails1()">BOOK</button>
+                </div>
+            </div>
+        </div>
+        <div id="ten" class="slots">
+            <div class="slotTypeHead">
+                <h1>Choose slot type</h1>
+            </div>
+            <div class="slotTypes">
+                <button id="st51" onclick="openMonths5()">Monthly Slots</button>
+                <button id="st52" onclick="openSem5()">Semester Slot</button>
+            </div>
+            <div id="m5" class="months">
+                <div class="monthHead"><h1>Choose a month</h1></div>
+                <div class="monthButs">
+                    <button id="m51" onclick="openTimes5()">(01-05 to 07-05)</button>
+                    <button id="m52" onclick="openTimes5()">(08-05 to 14-05)</button>
+                    <button id="m53" onclick="openTimes5()">(15-05 to 21-05)</button>
+                    <button id="m54" onclick="openTimes5()">(22-05 to 28-05)</button>
+                </div>
+            </div>
+            <div id="t5" class="times">
+                <div class="timeHead"><h1>Choose a time</h1></div>
+                <div class="timeButs">
+                    <button id="t51" onclick="activateBook1()">(06 to 07)</button>
+                    <button id="t52" onclick="activateBook1()">(07 to 08)</button>
+                    <button id="t53" onclick="activateBook1()">(08 to 09)</button>
+                    <button id="t54" onclick="activateBook1()">(17 to 18)</button>
+                    <button id="t55" onclick="activateBook1()">(18 to 19)</button>
+                    <button id="t56" onclick="activateBook1()">(19 to 20)</button>
+                </div>
+                <div class="book">
+                    <button id="bk" onclick="showPayDetails1()">BOOK</button>
+                </div>
+            </div>
+            <div id="tsId5" class="timeSem">
+                <div class="timeHead"><h1>Choose a time</h1></div>
+                <div class="timeButs">
+                    <button id="ts51" onclick="activateBook1()">(06 to 07)</button>
+                    <button id="ts52" onclick="activateBook1()">(07 to 08)</button>
+                    <button id="ts53" onclick="activateBook1()">(08 to 09)</button>
+                    <button id="ts54" onclick="activateBook1()">(17 to 18)</button>
+                    <button id="ts55" onclick="activateBook1()">(18 to 19)</button>
+                    <button id="ts56" onclick="activateBook1()">(19 to 20)</button>
+                </div>
+                <div class="book">
+                    <button id="bk" onclick="showPayDetails1()">BOOK</button>
+                </div>
+            </div>
+        </div>
+        <div id="gym" class="slots">
+            <div class="slotTypeHead">
+                <h1>Choose slot type</h1>
+            </div>
+            <div class="slotTypes">
+                <button id="st61" onclick="openMonths6()">Monthly Slots</button>
+                <button id="st62" onclick="openSem6()">Semester Slot</button>
+            </div>
+            <div id="m6" class="months">
+                <div class="monthHead"><h1>Choose a month</h1></div>
+                <div class="monthButs">
+                    <button id="m61" onclick="openTimes6()">(01-05 to 07-05)</button>
+                    <button id="m62" onclick="openTimes6()">(08-05 to 14-05)</button>
+                    <button id="m63" onclick="openTimes6()">(15-05 to 21-05)</button>
+                    <button id="m64" onclick="openTimes6()">(22-05 to 28-05)</button>
+                </div>
+            </div>
+            <div id="t6" class="times">
+                <div class="timeHead"><h1>Choose a time</h1></div>
+                <div class="timeButs">
+                    <button id="t61" onclick="activateBook1()">(06 to 07)</button>
+                    <button id="t62" onclick="activateBook1()">(07 to 08)</button>
+                    <button id="t63" onclick="activateBook1()">(08 to 09)</button>
+                    <button id="t64" onclick="activateBook1()">(17 to 18)</button>
+                    <button id="t65" onclick="activateBook1()">(18 to 19)</button>
+                    <button id="t66" onclick="activateBook1()">(19 to 20)</button>
+                </div>
+                <div class="book">
+                    <button id="bk" onclick="showPayDetails1()">BOOK</button>
+                </div>
+            </div>
+            <div id="tsId6" class="timeSem">
+                <div class="timeHead"><h1>Choose a time</h1></div>
+                <div class="timeButs">
+                    <button id="ts61" onclick="activateBook1()">(06 to 07)</button>
+                    <button id="ts62" onclick="activateBook1()">(07 to 08)</button>
+                    <button id="ts63" onclick="activateBook1()">(08 to 09)</button>
+                    <button id="ts64" onclick="activateBook1()">(17 to 18)</button>
+                    <button id="ts65" onclick="activateBook1()">(18 to 19)</button>
+                    <button id="ts66" onclick="activateBook1()">(19 to 20)</button>
+                </div>
+                <div class="book">
+                    <button id="bk" onclick="showPayDetails1()">BOOK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bookModal" class="modal">
+        <div class="modal-content">
+            <h1>Payment Details</h1>
+            <p><strong id="bstb">Type</strong>&nbsp;&nbsp;<span id="bst"></span></p>
+            <p><strong id="bmb">Month(s)</strong>&nbsp;&nbsp;<span id="bm"></span></p>
+            <p><strong id="btb">Time</strong>&nbsp;&nbsp;<span id="bt"></span></p>
+            <p><strong id="bpb">Fee</strong>&nbsp;&nbsp;<span id="bp"></span></p>
+            <button id="payBtn">PAY</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="icons">
+            <a href="#" class="mail"><i class="ri-mail-fill"></i></a>
+            <a href="#" class="linkedIn"><i class="ri-linkedin-fill"></i></a>
+            <a href="#" class="phone"><i class="ri-phone-fill"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        var bad = document.getElementById("bad");
+        var car = document.getElementById("car");
+        var che = document.getElementById("che");
+        var tab = document.getElementById("tab");
+        var ten = document.getElementById("ten");
+        var gym = document.getElementById("gym");
+        var b1 = document.getElementById("b1");
+        var b2 = document.getElementById("b2");
+        var b3 = document.getElementById("b3");
+        var b4 = document.getElementById("b4");
+        var b5 = document.getElementById("b5");
+        var b6 = document.getElementById("b6");
+
+        var bk = document.getElementById("bk");
+
+        var tsId1 = document.getElementById("tsId1")
+        var m1 = document.getElementById("m1")
+        var t1 = document.getElementById("t1")
+
+        var tsId2 = document.getElementById("tsId2")
+        var m2 = document.getElementById("m2")
+        var t2 = document.getElementById("t2")
+
+        var tsId3 = document.getElementById("tsId3")
+        var m3 = document.getElementById("m3")
+        var t3 = document.getElementById("t3")
+
+        var tsId4 = document.getElementById("tsId4")
+        var m4 = document.getElementById("m4")
+        var t4 = document.getElementById("t4")
+
+        var tsId5 = document.getElementById("tsId5")
+        var m5 = document.getElementById("m5")
+        var t5 = document.getElementById("t5")
+
+        var tsId6 = document.getElementById("tsId6")
+        var m6 = document.getElementById("m6")
+        var t6 = document.getElementById("t6")
+
+        function openMonths1(){
+            document.querySelectorAll('.months button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.times button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.timeSem button').forEach(button => {
+            button.classList.remove('active');
+            });
+
+            tsId1.style.transform = "translateX(-120%)";
+            m1.style.transform = "translateX(0)";
+            t1.style.transform = "translateX(-120%)";            
+            tsId2.style.transform = "translateX(-120%)";
+            m2.style.transform = "translateX(-120%)";
+            t2.style.transform = "translateX(-120%)";   
+            tsId3.style.transform = "translateX(-120%)";
+            m3.style.transform = "translateX(-120%)";
+            t3.style.transform = "translateX(-120%)";   
+            tsId4.style.transform = "translateX(-120%)";
+            m4.style.transform = "translateX(-120%)";
+            t4.style.transform = "translateX(-120%)";   
+            tsId5.style.transform = "translateX(-120%)";
+            m5.style.transform = "translateX(-120%)";
+            t5.style.transform = "translateX(-120%)";   
+            tsId6.style.transform = "translateX(-120%)";
+            m6.style.transform = "translateX(-120%)";
+            t6.style.transform = "translateX(-120%)";   
+        }
+        function openTimes1(){
+            document.querySelectorAll('.months button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.times button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.timeSem button').forEach(button => {
+            button.classList.remove('active');
+            });
+
+            tsId1.style.transform = "translateX(-120%)";
+            m1.style.transform = "translateX(0)";
+            t1.style.transform = "translateX(0)";            
+            tsId2.style.transform = "translateX(-120%)";
+            m2.style.transform = "translateX(-120%)";
+            t2.style.transform = "translateX(-120%)";   
+            tsId3.style.transform = "translateX(-120%)";
+            m3.style.transform = "translateX(-120%)";
+            t3.style.transform = "translateX(-120%)";   
+            tsId4.style.transform = "translateX(-120%)";
+            m4.style.transform = "translateX(-120%)";
+            t4.style.transform = "translateX(-120%)";   
+            tsId5.style.transform = "translateX(-120%)";
+            m5.style.transform = "translateX(-120%)";
+            t5.style.transform = "translateX(-120%)";   
+            tsId6.style.transform = "translateX(-120%)";
+            m6.style.transform = "translateX(-120%)";
+            t6.style.transform = "translateX(-120%)";   
+        }
+        function openSem1(){
+            document.querySelectorAll('.months button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.times button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.timeSem button').forEach(button => {
+            button.classList.remove('active');
+            });
+
+            tsId1.style.transform = "translateX(0)";
+            m1.style.transform = "translateX(-120%)";
+            t1.style.transform = "translateX(-120%)";            
+            tsId2.style.transform = "translateX(-120%)";
+            m2.style.transform = "translateX(-120%)";
+            t2.style.transform = "translateX(-120%)";   
+            tsId3.style.transform = "translateX(-120%)";
+            m3.style.transform = "translateX(-120%)";
+            t3.style.transform = "translateX(-120%)";   
+            tsId4.style.transform = "translateX(-120%)";
+            m4.style.transform = "translateX(-120%)";
+            t4.style.transform = "translateX(-120%)";   
+            tsId5.style.transform = "translateX(-120%)";
+            m5.style.transform = "translateX(-120%)";
+            t5.style.transform = "translateX(-120%)";   
+            tsId6.style.transform = "translateX(-120%)";
+            m6.style.transform = "translateX(-120%)";
+            t6.style.transform = "translateX(-120%)";    
+        }
+
+        function openMonths2(){
+            document.querySelectorAll('.months button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.times button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.timeSem button').forEach(button => {
+            button.classList.remove('active');
+            });
+
+            tsId1.style.transform = "translateX(-120%)";
+            m1.style.transform = "translateX(-120%)";
+            t1.style.transform = "translateX(-120%)";            
+            tsId2.style.transform = "translateX(-120%)";
+            m2.style.transform = "translateX(0)";
+            t2.style.transform = "translateX(-120%)";   
+            tsId3.style.transform = "translateX(-120%)";
+            m3.style.transform = "translateX(-120%)";
+            t3.style.transform = "translateX(-120%)";   
+            tsId4.style.transform = "translateX(-120%)";
+            m4.style.transform = "translateX(-120%)";
+            t4.style.transform = "translateX(-120%)";   
+            tsId5.style.transform = "translateX(-120%)";
+            m5.style.transform = "translateX(-120%)";
+            t5.style.transform = "translateX(-120%)";   
+            tsId6.style.transform = "translateX(-120%)";
+            m6.style.transform = "translateX(-120%)";
+            t6.style.transform = "translateX(-120%)";   
+        }
+        function openTimes2(){
+            document.querySelectorAll('.months button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.times button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.timeSem button').forEach(button => {
+            button.classList.remove('active');
+            });
+
+            tsId1.style.transform = "translateX(-120%)";
+            m1.style.transform = "translateX(-120%)";
+            t1.style.transform = "translateX(-120%)";            
+            tsId2.style.transform = "translateX(-120%)";
+            m2.style.transform = "translateX(0)";
+            t2.style.transform = "translateX(0)";   
+            tsId3.style.transform = "translateX(-120%)";
+            m3.style.transform = "translateX(-120%)";
+            t3.style.transform = "translateX(-120%)";   
+            tsId4.style.transform = "translateX(-120%)";
+            m4.style.transform = "translateX(-120%)";
+            t4.style.transform = "translateX(-120%)";   
+            tsId5.style.transform = "translateX(-120%)";
+            m5.style.transform = "translateX(-120%)";
+            t5.style.transform = "translateX(-120%)";   
+            tsId6.style.transform = "translateX(-120%)";
+            m6.style.transform = "translateX(-120%)";
+            t6.style.transform = "translateX(-120%)";   
+        }
+        function openSem2(){
+            document.querySelectorAll('.months button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.times button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.timeSem button').forEach(button => {
+            button.classList.remove('active');
+            });
+
+            tsId1.style.transform = "translateX(-120%)";
+            m1.style.transform = "translateX(-120%)";
+            t1.style.transform = "translateX(-120%)";            
+            tsId2.style.transform = "translateX(0)";
+            m2.style.transform = "translateX(-120%)";
+            t2.style.transform = "translateX(-120%)";   
+            tsId3.style.transform = "translateX(-120%)";
+            m3.style.transform = "translateX(-120%)";
+            t3.style.transform = "translateX(-120%)";   
+            tsId4.style.transform = "translateX(-120%)";
+            m4.style.transform = "translateX(-120%)";
+            t4.style.transform = "translateX(-120%)";   
+            tsId5.style.transform = "translateX(-120%)";
+            m5.style.transform = "translateX(-120%)";
+            t5.style.transform = "translateX(-120%)";   
+            tsId6.style.transform = "translateX(-120%)";
+            m6.style.transform = "translateX(-120%)";
+            t6.style.transform = "translateX(-120%)";     
+        }
+
+        function openMonths3(){
+            document.querySelectorAll('.months button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.times button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.timeSem button').forEach(button => {
+            button.classList.remove('active');
+            });
+
+            tsId1.style.transform = "translateX(-120%)";
+            m1.style.transform = "translateX(-120%)";
+            t1.style.transform = "translateX(-120%)";            
+            tsId2.style.transform = "translateX(-120%)";
+            m2.style.transform = "translateX(-120%)";
+            t2.style.transform = "translateX(-120%)";   
+            tsId3.style.transform = "translateX(-120%)";
+            m3.style.transform = "translateX(0)";
+            t3.style.transform = "translateX(-120%)";   
+            tsId4.style.transform = "translateX(-120%)";
+            m4.style.transform = "translateX(-120%)";
+            t4.style.transform = "translateX(-120%)";   
+            tsId5.style.transform = "translateX(-120%)";
+            m5.style.transform = "translateX(-120%)";
+            t5.style.transform = "translateX(-120%)";   
+            tsId6.style.transform = "translateX(-120%)";
+            m6.style.transform = "translateX(-120%)";
+            t6.style.transform = "translateX(-120%)";   
+        }
+        function openTimes3(){
+            document.querySelectorAll('.months button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.times button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.timeSem button').forEach(button => {
+            button.classList.remove('active');
+            });
+
+            tsId1.style.transform = "translateX(-120%)";
+            m1.style.transform = "translateX(-120%)";
+            t1.style.transform = "translateX(-120%)";            
+            tsId2.style.transform = "translateX(-120%)";
+            m2.style.transform = "translateX(-120%)";
+            t2.style.transform = "translateX(-120%)";   
+            tsId3.style.transform = "translateX(-120%)";
+            m3.style.transform = "translateX(0)";
+            t3.style.transform = "translateX(0)";   
+            tsId4.style.transform = "translateX(-120%)";
+            m4.style.transform = "translateX(-120%)";
+            t4.style.transform = "translateX(-120%)";   
+            tsId5.style.transform = "translateX(-120%)";
+            m5.style.transform = "translateX(-120%)";
+            t5.style.transform = "translateX(-120%)";   
+            tsId6.style.transform = "translateX(-120%)";
+            m6.style.transform = "translateX(-120%)";
+            t6.style.transform = "translateX(-120%)";   
+        }
+        function openSem3(){
+            document.querySelectorAll('.months button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.times button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.timeSem button').forEach(button => {
+            button.classList.remove('active');
+            });
+
+            tsId1.style.transform = "translateX(-120%)";
+            m1.style.transform = "translateX(-120%)";
+            t1.style.transform = "translateX(-120%)";            
+            tsId2.style.transform = "translateX(-120%)";
+            m2.style.transform = "translateX(-120%)";
+            t2.style.transform = "translateX(-120%)";   
+            tsId3.style.transform = "translateX(0)";
+            m3.style.transform = "translateX(-120%)";
+            t3.style.transform = "translateX(-120%)";   
+            tsId4.style.transform = "translateX(-120%)";
+            m4.style.transform = "translateX(-120%)";
+            t4.style.transform = "translateX(-120%)";   
+            tsId5.style.transform = "translateX(-120%)";
+            m5.style.transform = "translateX(-120%)";
+            t5.style.transform = "translateX(-120%)";   
+            tsId6.style.transform = "translateX(-120%)";
+            m6.style.transform = "translateX(-120%)";
+            t6.style.transform = "translateX(-120%)";     
+        }
+
+        function openMonths4(){
+            document.querySelectorAll('.months button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.times button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.timeSem button').forEach(button => {
+            button.classList.remove('active');
+            });
+
+            tsId1.style.transform = "translateX(-120%)";
+            m1.style.transform = "translateX(-120%)";
+            t1.style.transform = "translateX(-120%)";            
+            tsId2.style.transform = "translateX(-120%)";
+            m2.style.transform = "translateX(-120%)";
+            t2.style.transform = "translateX(-120%)";   
+            tsId3.style.transform = "translateX(-120%)";
+            m3.style.transform = "translateX(-120%)";
+            t3.style.transform = "translateX(-120%)";   
+            tsId4.style.transform = "translateX(-120%)";
+            m4.style.transform = "translateX(0)";
+            t4.style.transform = "translateX(-120%)";   
+            tsId5.style.transform = "translateX(-120%)";
+            m5.style.transform = "translateX(-120%)";
+            t5.style.transform = "translateX(-120%)";   
+            tsId6.style.transform = "translateX(-120%)";
+            m6.style.transform = "translateX(-120%)";
+            t6.style.transform = "translateX(-120%)";   
+        }
+        function openTimes4(){
+            document.querySelectorAll('.months button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.times button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.timeSem button').forEach(button => {
+            button.classList.remove('active');
+            });
+
+            tsId1.style.transform = "translateX(-120%)";
+            m1.style.transform = "translateX(-120%)";
+            t1.style.transform = "translateX(-120%)";            
+            tsId2.style.transform = "translateX(-120%)";
+            m2.style.transform = "translateX(-120%)";
+            t2.style.transform = "translateX(-120%)";   
+            tsId3.style.transform = "translateX(-120%)";
+            m3.style.transform = "translateX(-120%)";
+            t3.style.transform = "translateX(-120%)";   
+            tsId4.style.transform = "translateX(-120%)";
+            m4.style.transform = "translateX(0)";
+            t4.style.transform = "translateX(0)";   
+            tsId5.style.transform = "translateX(-120%)";
+            m5.style.transform = "translateX(-120%)";
+            t5.style.transform = "translateX(-120%)";   
+            tsId6.style.transform = "translateX(-120%)";
+            m6.style.transform = "translateX(-120%)";
+            t6.style.transform = "translateX(-120%)";   
+        }
+        function openSem4(){
+            document.querySelectorAll('.months button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.times button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.timeSem button').forEach(button => {
+            button.classList.remove('active');
+            });
+
+            tsId1.style.transform = "translateX(-120%)";
+            m1.style.transform = "translateX(-120%)";
+            t1.style.transform = "translateX(-120%)";            
+            tsId2.style.transform = "translateX(-120%)";
+            m2.style.transform = "translateX(-120%)";
+            t2.style.transform = "translateX(-120%)";   
+            tsId3.style.transform = "translateX(-120%)";
+            m3.style.transform = "translateX(-120%)";
+            t3.style.transform = "translateX(-120%)";   
+            tsId4.style.transform = "translateX(0)";
+            m4.style.transform = "translateX(-120%)";
+            t4.style.transform = "translateX(-120%)";   
+            tsId5.style.transform = "translateX(-120%)";
+            m5.style.transform = "translateX(-120%)";
+            t5.style.transform = "translateX(-120%)";   
+            tsId6.style.transform = "translateX(-120%)";
+            m6.style.transform = "translateX(-120%)";
+            t6.style.transform = "translateX(-120%)";     
+        }
+
+        function openMonths5(){
+            document.querySelectorAll('.months button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.times button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.timeSem button').forEach(button => {
+            button.classList.remove('active');
+            });
+
+            tsId1.style.transform = "translateX(-120%)";
+            m1.style.transform = "translateX(-120%)";
+            t1.style.transform = "translateX(-120%)";            
+            tsId2.style.transform = "translateX(-120%)";
+            m2.style.transform = "translateX(-120%)";
+            t2.style.transform = "translateX(-120%)";   
+            tsId3.style.transform = "translateX(-120%)";
+            m3.style.transform = "translateX(-120%)";
+            t3.style.transform = "translateX(-120%)";   
+            tsId4.style.transform = "translateX(-120%)";
+            m4.style.transform = "translateX(-120%)";
+            t4.style.transform = "translateX(-120%)";   
+            tsId5.style.transform = "translateX(-120%)";
+            m5.style.transform = "translateX(0)";
+            t5.style.transform = "translateX(-120%)";   
+            tsId6.style.transform = "translateX(-120%)";
+            m6.style.transform = "translateX(-120%)";
+            t6.style.transform = "translateX(-120%)";   
+        }
+        function openTimes5(){
+            document.querySelectorAll('.months button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.times button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.timeSem button').forEach(button => {
+            button.classList.remove('active');
+            });
+
+            tsId1.style.transform = "translateX(-120%)";
+            m1.style.transform = "translateX(-120%)";
+            t1.style.transform = "translateX(-120%)";            
+            tsId2.style.transform = "translateX(-120%)";
+            m2.style.transform = "translateX(-120%)";
+            t2.style.transform = "translateX(-120%)";   
+            tsId3.style.transform = "translateX(-120%)";
+            m3.style.transform = "translateX(-120%)";
+            t3.style.transform = "translateX(-120%)";   
+            tsId4.style.transform = "translateX(-120%)";
+            m4.style.transform = "translateX(-120%)";
+            t4.style.transform = "translateX(-120%)";   
+            tsId5.style.transform = "translateX(-120%)";
+            m5.style.transform = "translateX(0)";
+            t5.style.transform = "translateX(0)";   
+            tsId6.style.transform = "translateX(-120%)";
+            m6.style.transform = "translateX(-120%)";
+            t6.style.transform = "translateX(-120%)";   
+        }
+        function openSem5(){
+            document.querySelectorAll('.months button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.times button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.timeSem button').forEach(button => {
+            button.classList.remove('active');
+            });
+
+            tsId1.style.transform = "translateX(-120%)";
+            m1.style.transform = "translateX(-120%)";
+            t1.style.transform = "translateX(-120%)";            
+            tsId2.style.transform = "translateX(-120%)";
+            m2.style.transform = "translateX(-120%)";
+            t2.style.transform = "translateX(-120%)";   
+            tsId3.style.transform = "translateX(-120%)";
+            m3.style.transform = "translateX(-120%)";
+            t3.style.transform = "translateX(-120%)";   
+            tsId4.style.transform = "translateX(-120%)";
+            m4.style.transform = "translateX(-120%)";
+            t4.style.transform = "translateX(-120%)";   
+            tsId5.style.transform = "translateX(0)";
+            m5.style.transform = "translateX(-120%)";
+            t5.style.transform = "translateX(-120%)";   
+            tsId6.style.transform = "translateX(-120%)";
+            m6.style.transform = "translateX(-120%)";
+            t6.style.transform = "translateX(-120%)";     
+        }
+
+        function openMonths6(){
+            document.querySelectorAll('.months button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.times button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.timeSem button').forEach(button => {
+            button.classList.remove('active');
+            });
+
+            tsId1.style.transform = "translateX(-120%)";
+            m1.style.transform = "translateX(-120%)";
+            t1.style.transform = "translateX(-120%)";            
+            tsId2.style.transform = "translateX(-120%)";
+            m2.style.transform = "translateX(-120%)";
+            t2.style.transform = "translateX(-120%)";   
+            tsId3.style.transform = "translateX(-120%)";
+            m3.style.transform = "translateX(-120%)";
+            t3.style.transform = "translateX(-120%)";   
+            tsId4.style.transform = "translateX(-120%)";
+            m4.style.transform = "translateX(-120%)";
+            t4.style.transform = "translateX(-120%)";   
+            tsId5.style.transform = "translateX(-120%)";
+            m5.style.transform = "translateX(-120%)";
+            t5.style.transform = "translateX(-120%)";   
+            tsId6.style.transform = "translateX(-120%)";
+            m6.style.transform = "translateX(0)";
+            t6.style.transform = "translateX(-120%)";   
+        }
+        function openTimes6(){
+            document.querySelectorAll('.months button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.times button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.timeSem button').forEach(button => {
+            button.classList.remove('active');
+            });
+
+            tsId1.style.transform = "translateX(-120%)";
+            m1.style.transform = "translateX(-120%)";
+            t1.style.transform = "translateX(-120%)";            
+            tsId2.style.transform = "translateX(-120%)";
+            m2.style.transform = "translateX(-120%)";
+            t2.style.transform = "translateX(-120%)";   
+            tsId3.style.transform = "translateX(-120%)";
+            m3.style.transform = "translateX(-120%)";
+            t3.style.transform = "translateX(-120%)";   
+            tsId4.style.transform = "translateX(-120%)";
+            m4.style.transform = "translateX(-120%)";
+            t4.style.transform = "translateX(-120%)";   
+            tsId5.style.transform = "translateX(-120%)";
+            m5.style.transform = "translateX(-120%)";
+            t5.style.transform = "translateX(-120%)";   
+            tsId6.style.transform = "translateX(-120%)";
+            m6.style.transform = "translateX(0)";
+            t6.style.transform = "translateX(0)";   
+        }
+        function openSem6(){
+            document.querySelectorAll('.months button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.times button').forEach(button => {
+            button.classList.remove('active');
+            });
+            document.querySelectorAll('.timeSem button').forEach(button => {
+            button.classList.remove('active');
+            });
+
+            tsId1.style.transform = "translateX(-120%)";
+            m1.style.transform = "translateX(-120%)";
+            t1.style.transform = "translateX(-120%)";            
+            tsId2.style.transform = "translateX(-120%)";
+            m2.style.transform = "translateX(-120%)";
+            t2.style.transform = "translateX(-120%)";   
+            tsId3.style.transform = "translateX(-120%)";
+            m3.style.transform = "translateX(-120%)";
+            t3.style.transform = "translateX(-120%)";   
+            tsId4.style.transform = "translateX(-120%)";
+            m4.style.transform = "translateX(-120%)";
+            t4.style.transform = "translateX(-120%)";   
+            tsId5.style.transform = "translateX(-120%)";
+            m5.style.transform = "translateX(-120%)";
+            t5.style.transform = "translateX(-120%)";   
+            tsId6.style.transform = "translateX(0)";
+            m6.style.transform = "translateX(-120%)";
+            t6.style.transform = "translateX(-120%)";     
+        }
+
+        function openBad(){
+            bad.style.transform = "translateX(0)";
+            car.style.transform = "translateX(-100%)";
+            che.style.transform = "translateX(-100%)";
+            tab.style.transform = "translateX(-100%)";
+            ten.style.transform = "translateX(-100%)";
+            gym.style.transform = "translateX(-100%)";
+            b1.style.boxShadow = "1px 1px 1px 1px rgb(0, 0, 0)";
+            b2.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b3.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b4.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b5.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b6.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";  
+            bad.style.transitionDelay = "0.5s";
+            car.style.transitionDelay = "0s";
+            che.style.transitionDelay = "0s";
+            tab.style.transitionDelay = "0s";
+            ten.style.transitionDelay = "0s";
+            gym.style.transitionDelay = "0s";
+        }
+        function openCar(){
+            bad.style.transform = "translateX(-100%)";
+            car.style.transform = "translateX(0)";
+            che.style.transform = "translateX(-100%)";
+            tab.style.transform = "translateX(-100%)";
+            ten.style.transform = "translateX(-100%)";
+            gym.style.transform = "translateX(-100%)";
+            b1.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b2.style.boxShadow = "1px 1px 1px 1px rgb(0, 0, 0)";
+            b3.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b4.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b5.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b6.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)"; 
+            bad.style.transitionDelay = "0s";
+            car.style.transitionDelay = "0.5s";
+            che.style.transitionDelay = "0s";
+            tab.style.transitionDelay = "0s";
+            ten.style.transitionDelay = "0s";
+            gym.style.transitionDelay = "0s";
+        }
+        function openChe(){
+            bad.style.transform = "translateX(-100%)";
+            car.style.transform = "translateX(-100%)";
+            che.style.transform = "translateX(0)";
+            tab.style.transform = "translateX(-100%)";
+            ten.style.transform = "translateX(-100%)";
+            gym.style.transform = "translateX(-100%)";
+            b1.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b2.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b3.style.boxShadow = "1px 1px 1px 1px rgb(0, 0, 0)";
+            b4.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b5.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b6.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)"; 
+            bad.style.transitionDelay = "0s";
+            car.style.transitionDelay = "0s";
+            che.style.transitionDelay = "0.5s";
+            tab.style.transitionDelay = "0s";
+            ten.style.transitionDelay = "0s";
+            gym.style.transitionDelay = "0s";
+        }
+        function openTab(){
+            bad.style.transform = "translateX(-100%)";
+            car.style.transform = "translateX(-100%)";
+            che.style.transform = "translateX(-100%)";
+            tab.style.transform = "translateX(0)";
+            ten.style.transform = "translateX(-100%)";
+            gym.style.transform = "translateX(-100%)";
+            b1.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b2.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b3.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b4.style.boxShadow = "1px 1px 1px 1px rgb(0, 0, 0)";
+            b5.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b6.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)"; 
+            bad.style.transitionDelay = "0s";
+            car.style.transitionDelay = "0s";
+            che.style.transitionDelay = "0s";
+            tab.style.transitionDelay = "0.5s";
+            ten.style.transitionDelay = "0s";
+            gym.style.transitionDelay = "0s";
+        }
+        function openTen(){
+            bad.style.transform = "translateX(-100%)";
+            car.style.transform = "translateX(-100%)";
+            che.style.transform = "translateX(-100%)";
+            tab.style.transform = "translateX(-100%)";
+            ten.style.transform = "translateX(0)";
+            gym.style.transform = "translateX(-100%)";
+            b1.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b2.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b3.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b4.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b5.style.boxShadow = "1px 1px 1px 1px rgb(0, 0, 0)";
+            b6.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)"; 
+            bad.style.transitionDelay = "0s";
+            car.style.transitionDelay = "0s";
+            che.style.transitionDelay = "0s";
+            tab.style.transitionDelay = "0s";
+            ten.style.transitionDelay = "0.5s";
+            gym.style.transitionDelay = "0s";
+        }
+        function openGym(){
+            bad.style.transform = "translateX(-100%)";
+            car.style.transform = "translateX(-100%)";
+            che.style.transform = "translateX(-100%)";
+            tab.style.transform = "translateX(-100%)";
+            ten.style.transform = "translateX(-100%)";
+            gym.style.transform = "translateX(0)";
+            b1.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b2.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b3.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b4.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b5.style.boxShadow = "0px 0px 0px 0px rgb(0, 0, 0)";
+            b6.style.boxShadow = "1px 1px 1px 1px rgb(0, 0, 0)"; 
+            bad.style.transitionDelay = "0s";
+            car.style.transitionDelay = "0s";
+            che.style.transitionDelay = "0s";
+            tab.style.transitionDelay = "0s";
+            ten.style.transitionDelay = "0s";
+            gym.style.transitionDelay = "0.5s";
+        }
+    </script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="scriptSB.js"></script>
+</body>
+</html>
